@@ -15,5 +15,11 @@ puts "Hello, programmer!"
 return  num1 +num2
  end
 
- def halve ()
+ def halve data 
+   if data.is_a?Integer
+      return data/2
+   else
+      return nil
+   end 
+end
     
